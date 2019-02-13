@@ -1,6 +1,10 @@
 {
   "name": "timoliapixelfarmer",
   "version": "1.0.0",
+  "author": "derNiklaas",
+  "homepage": "https://www.twitter.com/derNiklaas",
+  "main": "index.js",
+  "repository": "https://github.com/derNiklaas/Timolia-Pixel-Farmer",
   "dependencies": {
     "request": "^2.88.0"
   }
