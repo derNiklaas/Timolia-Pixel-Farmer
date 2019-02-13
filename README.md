@@ -1,8 +1,8 @@
-#Timolia Pixel Farmer 
+# Timolia Pixel Farmer
 
 This is a small node.js Script for the free daily pixels on the Timolia.de Minecraft Server.
 
-##How to use
+## How to use
 
 1) Download the Repository.
 2) Open the "index.js" File
