@@ -1,5 +1,5 @@
 const request = require('request');
-if (process.argv.length > 2 && process.argv[2] == 'nowait'){
+if (process.argv.length > 2 && process.argv[2] === 'nowait'){
     dailyRequest(false);
 }else{
     dailyRequest(true);
