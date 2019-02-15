@@ -10,7 +10,17 @@ function dailyRequest(wait) {
         if (err) {
             console.log("ERROR: " + err);
         } else {
-            console.log(body);
+            if(body.startsWith("{")){
+                let json = JSON.parse(body);
+                if(json.status === "failed"){
+                    console.log("\x1b[31m", "Request Failed.");
+                    return;
+                }else{
+                    console.log("\x1b[32m", "Request Succeeded. +"+json.pixel+" Pixel");
+                }
+            }else{
+                console.log("\x1b[31m", "Unknown Username. Please check your Username!");
+            }
         }
         if (wait){
             setTimeout(dailyRequest, 86400000);
