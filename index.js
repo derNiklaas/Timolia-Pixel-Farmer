@@ -14,7 +14,6 @@ function dailyRequest(wait) {
                 let json = JSON.parse(body);
                 if(json.status === "failed"){
                     console.log("\x1b[31m", "Request Failed.");
-                    return;
                 }else{
                     console.log("\x1b[32m", "Request Succeeded. +"+json.pixel+" Pixel");
                 }
