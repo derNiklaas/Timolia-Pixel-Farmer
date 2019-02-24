@@ -2,6 +2,9 @@
 
 This is a small node.js Script for the free daily pixels on the Timolia.de Minecraft Server.
 
+# IMPORTANT NOTE: This Project DOES NOT work at the moment due to the introduction of recaptcha.
+If you want to help me, please open a Pull Request or send me a message via Twitter[https://twitter.com/derNiklaas]
+
 ## How to use
 
 1) Download the Repository.
